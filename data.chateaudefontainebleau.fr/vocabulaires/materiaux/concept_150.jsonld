@@ -1,0 +1,179 @@
+{
+  "id": "http://data.chateaudefontainebleau.fr/vocabulaires/materiaux/concept_150",
+  "type": "Concept",
+  "prefLabel": {
+    "fr": "Cristal de Montcenis"
+  },
+  "hiddenLabel": {
+    "fr": [
+      "Cristal de Mont-Cenis"
+    ]
+  },
+  "definition": {
+    "fr": "Cristaux Creusot ou Montcenis.\nIl existe très peu de pièces authentifiées comme des productions de la manufacture du Creusot (qui porte jusqu'à sa fermeture le nom de cristallerie de Montcenis). Les seuls catalogues connus à ce jour ne permettent pas d'être complètement affirmatif. En 1823, est même édité, sous la forme d'une liste de produits courants, un catalogue commun à Baccarat et Montcenis. Le seul catalogue que l'on peut estimer de 1830 ne présente que des formes et des mentions de tailles. A cette date les principales cristalleries françaises ont des productions similaires correspondant au goût et aux modes du moment (Source:www.ecomusee-creusot-montceau.fr).\nLa manufacture des cristaux de Montcenis au Creusot a été récompensée à deux reprises aux Expositions des produits de l’industrie française, en 1801 et 1802. A partir de 1806, son administrateur, Benjamin-François de la Douespe du Fougerais (1766-1821) devient le principal fournisseur de verrerie de l’Impératrice Il prend alors le titre d’« Entrepreneur de cristaux de S. M. l’Impératrice ». Il fournit abondamment également, tant la Maison de l ‘Empereur, que celle de la reine Hortense (Musée national des châteaux de Malmaison et Bois- Préau)."
+  },
+  "broader": {
+    "id": "http://data.chateaudefontainebleau.fr/vocabulaires/materiaux/concept_149",
+    "prefLabel": {
+      "fr": "Cristal"
+    }
+  },
+  "inScheme": [
+    {
+      "id": "http://data.chateaudefontainebleau.fr/vocabulaires/materiaux",
+      "title": {
+        "fr": "Thesaurus des Matériaux"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://data.chateaudefontainebleau.fr/vocabulaires/materiaux"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}
