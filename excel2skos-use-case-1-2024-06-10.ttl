@@ -577,7 +577,7 @@ vocab:concept_86 a skos:Concept;
   skos:prefLabel "Grès (pierre)"@fr;
   skos:broader vocab:concept_80;
   dct:source "Château de Fontainebleau";
-  skos:scopeNote "Précision (pierre) afin de différencier de grès (céramique)";
+  skos:scopeNote "Précision (pierre) afin de différencier de grès (céramique)"@fr;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_87 a skos:Concept;
@@ -1102,7 +1102,7 @@ vocab:concept_166 a skos:Concept;
   skos:prefLabel "Ivoire (dent)"@fr;
   skos:broader vocab:concept_152;
   dct:source "Château de Fontainebleau";
-  skos:scopeNote "\"Dent\" permet de différencier de ivoire \"couleur\".";
+  skos:scopeNote "\"Dent\" permet de différencier de ivoire \"couleur\"."@fr;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_167 a skos:Concept;
