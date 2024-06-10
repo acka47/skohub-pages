@@ -97,7 +97,7 @@ vocab:concept_10 a skos:Concept;
 vocab:concept_11 a skos:Concept;
   skos:prefLabel "Bois de violette"@fr;
   skos:broader vocab:concept_4;
-  skos:hiddenLabel "Bois violet";
+  skos:hiddenLabel "Bois violet"@fr;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
@@ -243,7 +243,7 @@ vocab:concept_34 a skos:Concept;
 vocab:concept_35 a skos:Concept;
   skos:prefLabel "Conifère"@fr;
   skos:broader vocab:concept_4;
-  skos:hiddenLabel "Résineux";
+  skos:hiddenLabel "Résineux"@fr;
   dct:source "Joconde";
   skos:narrower vocab:concept_36;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
@@ -251,7 +251,7 @@ vocab:concept_35 a skos:Concept;
 vocab:concept_36 a skos:Concept;
   skos:prefLabel "Genévrier"@fr;
   skos:broader vocab:concept_35;
-  skos:hiddenLabel "Genèvrier";
+  skos:hiddenLabel "Genèvrier"@fr;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
@@ -271,14 +271,14 @@ vocab:concept_38 a skos:Concept;
 vocab:concept_39 a skos:Concept;
   skos:prefLabel "Carton-pierre"@fr;
   skos:broader vocab:concept_38;
-  skos:hiddenLabel "Carton pierre";
+  skos:hiddenLabel "Carton pierre"@fr;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_40 a skos:Concept;
   skos:prefLabel "Carton-pâte"@fr;
   skos:broader vocab:concept_38;
-  skos:hiddenLabel "Carton pâte";
+  skos:hiddenLabel "Carton pâte"@fr;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
@@ -569,7 +569,7 @@ vocab:concept_84 a skos:Concept;
 vocab:concept_85 a skos:Concept;
   skos:prefLabel "Granite"@fr;
   skos:broader vocab:concept_80;
-  skos:hiddenLabel "Granit";
+  skos:hiddenLabel "Granit"@fr;
   dct:source "Joconde";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
@@ -657,7 +657,7 @@ vocab:concept_97 a skos:Concept;
 vocab:concept_98 a skos:Concept;
   skos:prefLabel "Marbre brocatelle"@fr;
   skos:broader vocab:concept_92;
-  skos:hiddenLabel "Marbre brèche caroline";
+  skos:hiddenLabel "Marbre brèche caroline"@fr;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
@@ -784,7 +784,7 @@ vocab:concept_117 a skos:Concept;
 vocab:concept_118 a skos:Concept;
   skos:prefLabel "Chrysoprase"@fr;
   skos:broader vocab:concept_115;
-  skos:hiddenLabel "Chrysoprases";
+  skos:hiddenLabel "Chrysoprases"@fr;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
@@ -860,7 +860,7 @@ vocab:concept_129 a skos:Concept;
 vocab:concept_130 a skos:Concept;
   skos:prefLabel "Lapis-lazuli"@fr;
   skos:broader vocab:concept_113;
-  skos:hiddenLabel "Lapis";
+  skos:hiddenLabel "Lapis"@fr;
   dct:source "Joconde";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
@@ -917,7 +917,7 @@ vocab:concept_138 a skos:Concept;
 vocab:concept_139 a skos:Concept;
   skos:prefLabel "Terre cuite"@fr;
   skos:broader vocab:concept_137;
-  skos:hiddenLabel "Terre-cuite";
+  skos:hiddenLabel "Terre-cuite"@fr;
   dct:source "Château de Fontainebleau";
   skos:narrower vocab:concept_140;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
@@ -925,7 +925,7 @@ vocab:concept_139 a skos:Concept;
 vocab:concept_140 a skos:Concept;
   skos:prefLabel "Céramique"@fr;
   skos:broader vocab:concept_139;
-  skos:hiddenLabel "Terre vernissée";
+  skos:hiddenLabel "Terre vernissée"@fr;
   dct:source "Château de Fontainebleau";
   skos:narrower vocab:concept_141, vocab:concept_143, vocab:concept_144;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
@@ -992,7 +992,7 @@ vocab:concept_149 a skos:Concept;
 vocab:concept_150 a skos:Concept;
   skos:prefLabel "Cristal de Montcenis"@fr;
   skos:broader vocab:concept_149;
-  skos:hiddenLabel "Cristal de Mont-Cenis";
+  skos:hiddenLabel "Cristal de Mont-Cenis"@fr;
   dct:source "Château de Fontainebleau";
   skos:definition """Cristaux Creusot ou Montcenis.
 Il existe très peu de pièces authentifiées comme des productions de la manufacture du Creusot (qui porte jusqu'à sa fermeture le nom de cristallerie de Montcenis). Les seuls catalogues connus à ce jour ne permettent pas d'être complètement affirmatif. En 1823, est même édité, sous la forme d'une liste de produits courants, un catalogue commun à Baccarat et Montcenis. Le seul catalogue que l'on peut estimer de 1830 ne présente que des formes et des mentions de tailles. A cette date les principales cristalleries françaises ont des productions similaires correspondant au goût et aux modes du moment (Source:www.ecomusee-creusot-montceau.fr).
@@ -1068,7 +1068,7 @@ vocab:concept_160 a skos:Concept;
 vocab:concept_161 a skos:Concept;
   skos:prefLabel "Cuir"@fr;
   skos:broader vocab:concept_152;
-  skos:hiddenLabel "Peau";
+  skos:hiddenLabel "Peau"@fr;
   dct:source "Château de Fontainebleau";
   skos:narrower vocab:concept_162, vocab:concept_163, vocab:concept_164;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
