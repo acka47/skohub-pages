@@ -22,10 +22,11 @@
 
 <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> a skos:ConceptScheme;
   dct:title "Thesaurus des Matériaux";
+  dct:description "Put description here"@en;
   skos:hasTopConcept vocab:concept_1, vocab:concept_56, vocab:concept_152, vocab:concept_175 .
 
 vocab:concept_1 a skos:Concept;
-  skos:prefLabel "Matériau d'origine végétale";
+  skos:prefLabel "Matériau d'origine végétale"@fr;
   dct:source "Joconde";
   skos:narrower vocab:concept_2, vocab:concept_3, vocab:concept_4, vocab:concept_37,
     vocab:concept_38, vocab:concept_41, vocab:concept_51, vocab:concept_52, vocab:concept_55;
@@ -33,20 +34,20 @@ vocab:concept_1 a skos:Concept;
   skos:topConceptOf <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_2 a skos:Concept;
-  skos:prefLabel "Amarante";
+  skos:prefLabel "Amarante"@fr;
   skos:broader vocab:concept_1;
   dct:source "Château de Fontainebleau";
-  skos:definition "Plante ornementale aux fleurs rouges groupées en longues grappes, appelée aussi queue de reb";
+  skos:definition "Plante ornementale aux fleurs rouges groupées en longues grappes, appelée aussi queue de reb"@en;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_3 a skos:Concept;
-  skos:prefLabel "Bambou";
+  skos:prefLabel "Bambou"@fr;
   skos:broader vocab:concept_1;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_4 a skos:Concept;
-  skos:prefLabel "Bois";
+  skos:prefLabel "Bois"@fr;
   skos:broader vocab:concept_1;
   dct:source "Château de Fontainebleau";
   skos:narrower vocab:concept_5, vocab:concept_6, vocab:concept_7, vocab:concept_8,
@@ -58,189 +59,189 @@ vocab:concept_4 a skos:Concept;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_5 a skos:Concept;
-  skos:prefLabel "Acajou";
+  skos:prefLabel "Acajou"@fr;
   skos:broader vocab:concept_4;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_6 a skos:Concept;
-  skos:prefLabel "Aulne";
+  skos:prefLabel "Aulne"@fr;
   skos:broader vocab:concept_4;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_7 a skos:Concept;
-  skos:prefLabel "Bois d'amboine";
+  skos:prefLabel "Bois d'amboine"@fr;
   skos:broader vocab:concept_4;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_8 a skos:Concept;
-  skos:prefLabel "Bois de genévrier";
+  skos:prefLabel "Bois de genévrier"@fr;
   skos:broader vocab:concept_4;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_9 a skos:Concept;
-  skos:prefLabel "Bois de rose";
+  skos:prefLabel "Bois de rose"@fr;
   skos:broader vocab:concept_4;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_10 a skos:Concept;
-  skos:prefLabel "Bois de santal";
+  skos:prefLabel "Bois de santal"@fr;
   skos:broader vocab:concept_4;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_11 a skos:Concept;
-  skos:prefLabel "Bois de violette";
+  skos:prefLabel "Bois de violette"@fr;
   skos:broader vocab:concept_4;
   skos:hiddenLabel "Bois violet";
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_12 a skos:Concept;
-  skos:prefLabel "Buis";
+  skos:prefLabel "Buis"@fr;
   skos:broader vocab:concept_4;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_13 a skos:Concept;
-  skos:prefLabel "Canne";
+  skos:prefLabel "Canne"@fr;
   skos:broader vocab:concept_4;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_14 a skos:Concept;
-  skos:prefLabel "Châtaignier";
+  skos:prefLabel "Châtaignier"@fr;
   skos:broader vocab:concept_4;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_15 a skos:Concept;
-  skos:prefLabel "Chêne";
+  skos:prefLabel "Chêne"@fr;
   skos:broader vocab:concept_4;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_16 a skos:Concept;
-  skos:prefLabel "Cormier";
+  skos:prefLabel "Cormier"@fr;
   skos:broader vocab:concept_4;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_17 a skos:Concept;
-  skos:prefLabel "Courbaril";
+  skos:prefLabel "Courbaril"@fr;
   skos:broader vocab:concept_4;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_18 a skos:Concept;
-  skos:prefLabel "Ebène";
+  skos:prefLabel "Ebène"@fr;
   skos:broader vocab:concept_4;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_19 a skos:Concept;
-  skos:prefLabel "Erable";
+  skos:prefLabel "Erable"@fr;
   skos:broader vocab:concept_4;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_20 a skos:Concept;
-  skos:prefLabel "Frêne";
+  skos:prefLabel "Frêne"@fr;
   skos:broader vocab:concept_4;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_21 a skos:Concept;
-  skos:prefLabel "Hêtre";
+  skos:prefLabel "Hêtre"@fr;
   skos:broader vocab:concept_4;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_22 a skos:Concept;
-  skos:prefLabel "Houx";
+  skos:prefLabel "Houx"@fr;
   skos:broader vocab:concept_4;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_23 a skos:Concept;
-  skos:prefLabel "If";
+  skos:prefLabel "If"@fr;
   skos:broader vocab:concept_4;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_24 a skos:Concept;
-  skos:prefLabel "Merisier";
+  skos:prefLabel "Merisier"@fr;
   skos:broader vocab:concept_4;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_25 a skos:Concept;
-  skos:prefLabel "Noyer";
+  skos:prefLabel "Noyer"@fr;
   skos:broader vocab:concept_4;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_26 a skos:Concept;
-  skos:prefLabel "Orme";
+  skos:prefLabel "Orme"@fr;
   skos:broader vocab:concept_4;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_27 a skos:Concept;
-  skos:prefLabel "Palissandre";
+  skos:prefLabel "Palissandre"@fr;
   skos:broader vocab:concept_4;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_28 a skos:Concept;
-  skos:prefLabel "Peuplier";
+  skos:prefLabel "Peuplier"@fr;
   skos:broader vocab:concept_4;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_29 a skos:Concept;
-  skos:prefLabel "Platane";
+  skos:prefLabel "Platane"@fr;
   skos:broader vocab:concept_4;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_30 a skos:Concept;
-  skos:prefLabel "Sapin";
+  skos:prefLabel "Sapin"@fr;
   skos:broader vocab:concept_4;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_31 a skos:Concept;
-  skos:prefLabel "Bois clair";
+  skos:prefLabel "Bois clair"@fr;
   skos:broader vocab:concept_4;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_32 a skos:Concept;
-  skos:prefLabel "Bois fruitier";
+  skos:prefLabel "Bois fruitier"@fr;
   skos:broader vocab:concept_4;
   dct:source "Joconde";
   skos:narrower vocab:concept_33, vocab:concept_34;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_33 a skos:Concept;
-  skos:prefLabel "Citronnier";
+  skos:prefLabel "Citronnier"@fr;
   skos:broader vocab:concept_32;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_34 a skos:Concept;
-  skos:prefLabel "Poirier";
+  skos:prefLabel "Poirier"@fr;
   skos:broader vocab:concept_32;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_35 a skos:Concept;
-  skos:prefLabel "Conifère";
+  skos:prefLabel "Conifère"@fr;
   skos:broader vocab:concept_4;
   skos:hiddenLabel "Résineux";
   dct:source "Joconde";
@@ -248,137 +249,137 @@ vocab:concept_35 a skos:Concept;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_36 a skos:Concept;
-  skos:prefLabel "Genévrier";
+  skos:prefLabel "Genévrier"@fr;
   skos:broader vocab:concept_35;
   skos:hiddenLabel "Genèvrier";
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_37 a skos:Concept;
-  skos:prefLabel "Caoutchouc";
+  skos:prefLabel "Caoutchouc"@fr;
   skos:broader vocab:concept_1;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_38 a skos:Concept;
-  skos:prefLabel "Carton";
+  skos:prefLabel "Carton"@fr;
   skos:broader vocab:concept_1;
   dct:source "Château de Fontainebleau";
   skos:narrower vocab:concept_39, vocab:concept_40;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_39 a skos:Concept;
-  skos:prefLabel "Carton-pierre";
+  skos:prefLabel "Carton-pierre"@fr;
   skos:broader vocab:concept_38;
   skos:hiddenLabel "Carton pierre";
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_40 a skos:Concept;
-  skos:prefLabel "Carton-pâte";
+  skos:prefLabel "Carton-pâte"@fr;
   skos:broader vocab:concept_38;
   skos:hiddenLabel "Carton pâte";
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_41 a skos:Concept;
-  skos:prefLabel "Elément de végétal";
+  skos:prefLabel "Elément de végétal"@fr;
   skos:broader vocab:concept_1;
   dct:source "Joconde";
   skos:narrower vocab:concept_42, vocab:concept_44, vocab:concept_48;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_42 a skos:Concept;
-  skos:prefLabel "Ecorce";
+  skos:prefLabel "Ecorce"@fr;
   skos:broader vocab:concept_41;
   dct:source "Joconde";
   skos:narrower vocab:concept_43;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_43 a skos:Concept;
-  skos:prefLabel "Liège";
+  skos:prefLabel "Liège"@fr;
   skos:broader vocab:concept_42;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_44 a skos:Concept;
-  skos:prefLabel "Fibre végétale";
+  skos:prefLabel "Fibre végétale"@fr;
   skos:broader vocab:concept_41;
   dct:source "Joconde";
   skos:narrower vocab:concept_45, vocab:concept_46, vocab:concept_47;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_45 a skos:Concept;
-  skos:prefLabel "Coton";
+  skos:prefLabel "Coton"@fr;
   skos:broader vocab:concept_44;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_46 a skos:Concept;
-  skos:prefLabel "Ficelle";
+  skos:prefLabel "Ficelle"@fr;
   skos:broader vocab:concept_44;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_47 a skos:Concept;
-  skos:prefLabel "Futaine";
+  skos:prefLabel "Futaine"@fr;
   skos:broader vocab:concept_44;
   dct:source "Château de Fontainebleau";
-  skos:definition "Etoffe croisée et pelucheuse, de fil et de coton qui servait à faire des jupons, des doublures, des camisoles.";
+  skos:definition "Etoffe croisée et pelucheuse, de fil et de coton qui servait à faire des jupons, des doublures, des camisoles."@en;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_48 a skos:Concept;
-  skos:prefLabel "Racine";
+  skos:prefLabel "Racine"@fr;
   skos:broader vocab:concept_41;
   dct:source "Joconde";
   skos:narrower vocab:concept_49, vocab:concept_50;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_49 a skos:Concept;
-  skos:prefLabel "Racine de frêne";
+  skos:prefLabel "Racine de frêne"@fr;
   skos:broader vocab:concept_48;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_50 a skos:Concept;
-  skos:prefLabel "Racine d'orme";
+  skos:prefLabel "Racine d'orme"@fr;
   skos:broader vocab:concept_48;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_51 a skos:Concept;
-  skos:prefLabel "Paille";
+  skos:prefLabel "Paille"@fr;
   skos:broader vocab:concept_1;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_52 a skos:Concept;
-  skos:prefLabel "Papier";
+  skos:prefLabel "Papier"@fr;
   skos:broader vocab:concept_1;
   dct:source "Château de Fontainebleau";
   skos:narrower vocab:concept_53, vocab:concept_54;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_53 a skos:Concept;
-  skos:prefLabel "Papier calque";
+  skos:prefLabel "Papier calque"@fr;
   skos:broader vocab:concept_52;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_54 a skos:Concept;
-  skos:prefLabel "Papier de soie";
+  skos:prefLabel "Papier de soie"@fr;
   skos:broader vocab:concept_52;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_55 a skos:Concept;
-  skos:prefLabel "Osier";
+  skos:prefLabel "Osier"@fr;
   skos:broader vocab:concept_1;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_56 a skos:Concept;
-  skos:prefLabel "Matériau d'origine minérale";
+  skos:prefLabel "Matériau d'origine minérale"@fr;
   dct:source "Joconde";
   skos:narrower vocab:concept_57, vocab:concept_59, vocab:concept_60, vocab:concept_61,
     vocab:concept_79, vocab:concept_80, vocab:concept_113, vocab:concept_136, vocab:concept_137,
@@ -387,32 +388,32 @@ vocab:concept_56 a skos:Concept;
   skos:topConceptOf <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_57 a skos:Concept;
-  skos:prefLabel "Lave";
+  skos:prefLabel "Lave"@fr;
   skos:broader vocab:concept_56;
   dct:source "Château de Fontainebleau";
   skos:narrower vocab:concept_58;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_58 a skos:Concept;
-  skos:prefLabel "Lave émaillée";
+  skos:prefLabel "Lave émaillée"@fr;
   skos:broader vocab:concept_57;
   dct:source "Joconde";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_59 a skos:Concept;
-  skos:prefLabel "Marcassite";
+  skos:prefLabel "Marcassite"@fr;
   skos:broader vocab:concept_56;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_60 a skos:Concept;
-  skos:prefLabel "Mercure";
+  skos:prefLabel "Mercure"@fr;
   skos:broader vocab:concept_56;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_61 a skos:Concept;
-  skos:prefLabel "Métal";
+  skos:prefLabel "Métal"@fr;
   skos:broader vocab:concept_56;
   dct:source "Château de Fontainebleau";
   skos:narrower vocab:concept_62, vocab:concept_68, vocab:concept_70, vocab:concept_71,
@@ -420,7 +421,7 @@ vocab:concept_61 a skos:Concept;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_62 a skos:Concept;
-  skos:prefLabel "Alliage";
+  skos:prefLabel "Alliage"@fr;
   skos:broader vocab:concept_61;
   dct:source "Joconde";
   skos:narrower vocab:concept_63, vocab:concept_64, vocab:concept_65, vocab:concept_66,
@@ -428,111 +429,111 @@ vocab:concept_62 a skos:Concept;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_63 a skos:Concept;
-  skos:prefLabel "Acier";
+  skos:prefLabel "Acier"@fr;
   skos:broader vocab:concept_62;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_64 a skos:Concept;
-  skos:prefLabel "Fer";
+  skos:prefLabel "Fer"@fr;
   skos:broader vocab:concept_62;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_65 a skos:Concept;
-  skos:prefLabel "Laiton";
+  skos:prefLabel "Laiton"@fr;
   skos:broader vocab:concept_62;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_66 a skos:Concept;
-  skos:prefLabel "Bronze";
+  skos:prefLabel "Bronze"@fr;
   skos:broader vocab:concept_62;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_67 a skos:Concept;
-  skos:prefLabel "Vermeil";
+  skos:prefLabel "Vermeil"@fr;
   skos:broader vocab:concept_62;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_68 a skos:Concept;
-  skos:prefLabel "Argent";
+  skos:prefLabel "Argent"@fr;
   skos:broader vocab:concept_61;
   dct:source "Château de Fontainebleau";
   skos:narrower vocab:concept_69;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_69 a skos:Concept;
-  skos:prefLabel "Fil d'argent";
+  skos:prefLabel "Fil d'argent"@fr;
   skos:broader vocab:concept_68;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_70 a skos:Concept;
-  skos:prefLabel "Cuivre";
+  skos:prefLabel "Cuivre"@fr;
   skos:broader vocab:concept_61;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_71 a skos:Concept;
-  skos:prefLabel "Etain";
+  skos:prefLabel "Etain"@fr;
   skos:broader vocab:concept_61;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_72 a skos:Concept;
-  skos:prefLabel "Or";
+  skos:prefLabel "Or"@fr;
   skos:broader vocab:concept_61;
   dct:source "Château de Fontainebleau";
   skos:narrower vocab:concept_73, vocab:concept_74;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_73 a skos:Concept;
-  skos:prefLabel "Fil d'or";
+  skos:prefLabel "Fil d'or"@fr;
   skos:broader vocab:concept_72;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_74 a skos:Concept;
-  skos:prefLabel "Or faux";
+  skos:prefLabel "Or faux"@fr;
   skos:broader vocab:concept_72;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_75 a skos:Concept;
-  skos:prefLabel "Platine";
+  skos:prefLabel "Platine"@fr;
   skos:broader vocab:concept_61;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_76 a skos:Concept;
-  skos:prefLabel "Plomb";
+  skos:prefLabel "Plomb"@fr;
   skos:broader vocab:concept_61;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_77 a skos:Concept;
-  skos:prefLabel "Tôle";
+  skos:prefLabel "Tôle"@fr;
   skos:broader vocab:concept_61;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_78 a skos:Concept;
-  skos:prefLabel "Zinc";
+  skos:prefLabel "Zinc"@fr;
   skos:broader vocab:concept_61;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_79 a skos:Concept;
-  skos:prefLabel "Miroir";
+  skos:prefLabel "Miroir"@fr;
   skos:broader vocab:concept_56;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_80 a skos:Concept;
-  skos:prefLabel "Pierre";
+  skos:prefLabel "Pierre"@fr;
   skos:broader vocab:concept_56;
   dct:source "Château de Fontainebleau";
   skos:narrower vocab:concept_81, vocab:concept_82, vocab:concept_83, vocab:concept_84,
@@ -541,79 +542,79 @@ vocab:concept_80 a skos:Concept;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_81 a skos:Concept;
-  skos:prefLabel "Albâtre";
+  skos:prefLabel "Albâtre"@fr;
   skos:broader vocab:concept_80;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_82 a skos:Concept;
-  skos:prefLabel "Ardoise";
+  skos:prefLabel "Ardoise"@fr;
   skos:broader vocab:concept_80;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_83 a skos:Concept;
-  skos:prefLabel "Bois pétrifié";
+  skos:prefLabel "Bois pétrifié"@fr;
   skos:broader vocab:concept_80;
   dct:source "Château de Fontainebleau";
-  skos:definition "Le bois pétrifié est un type de fossile. Le bois pétrifié est composé de bois fossilisé où la matière organique a plus ou moins été remplacée par des minéraux, tout en conservant plus ou moins complètement la structure anatomique originale du bois.";
+  skos:definition "Le bois pétrifié est un type de fossile. Le bois pétrifié est composé de bois fossilisé où la matière organique a plus ou moins été remplacée par des minéraux, tout en conservant plus ou moins complètement la structure anatomique originale du bois."@en;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_84 a skos:Concept;
-  skos:prefLabel "Craie";
+  skos:prefLabel "Craie"@fr;
   skos:broader vocab:concept_80;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_85 a skos:Concept;
-  skos:prefLabel "Granite";
+  skos:prefLabel "Granite"@fr;
   skos:broader vocab:concept_80;
   skos:hiddenLabel "Granit";
   dct:source "Joconde";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_86 a skos:Concept;
-  skos:prefLabel "Grès (pierre)";
+  skos:prefLabel "Grès (pierre)"@fr;
   skos:broader vocab:concept_80;
   dct:source "Château de Fontainebleau";
   skos:scopeNote "Précision (pierre) afin de différencier de grès (céramique)";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_87 a skos:Concept;
-  skos:prefLabel "Gypse";
+  skos:prefLabel "Gypse"@fr;
   skos:broader vocab:concept_80;
   dct:source "Château de Fontainebleau";
   skos:narrower vocab:concept_88;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_88 a skos:Concept;
-  skos:prefLabel "Plâtre";
+  skos:prefLabel "Plâtre"@fr;
   skos:broader vocab:concept_87;
   skos:related vocab:concept_136;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_89 a skos:Concept;
-  skos:prefLabel "Malachite";
+  skos:prefLabel "Malachite"@fr;
   skos:broader vocab:concept_80;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_90 a skos:Concept;
-  skos:prefLabel "Marbre";
+  skos:prefLabel "Marbre"@fr;
   skos:broader vocab:concept_80;
   dct:source "Château de Fontainebleau";
   skos:narrower vocab:concept_91, vocab:concept_92;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_91 a skos:Concept;
-  skos:prefLabel "Marbre blanc";
+  skos:prefLabel "Marbre blanc"@fr;
   skos:broader vocab:concept_90;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_92 a skos:Concept;
-  skos:prefLabel "Marbre de couleur";
+  skos:prefLabel "Marbre de couleur"@fr;
   skos:broader vocab:concept_90;
   dct:source "Joconde";
   skos:narrower vocab:concept_93, vocab:concept_94, vocab:concept_95, vocab:concept_96,
@@ -623,129 +624,129 @@ vocab:concept_92 a skos:Concept;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_93 a skos:Concept;
-  skos:prefLabel "Marbre bleu turquin";
+  skos:prefLabel "Marbre bleu turquin"@fr;
   skos:broader vocab:concept_92;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_94 a skos:Concept;
-  skos:prefLabel "Marbre Boulogne";
+  skos:prefLabel "Marbre Boulogne"@fr;
   skos:broader vocab:concept_92;
   dct:source "Château de Fontainebleau";
-  skos:definition "De couleur café au lait avec veines blanches, grises ou rousses, reçoit un assez beau poli et peut être fourni par de grands blocs.";
+  skos:definition "De couleur café au lait avec veines blanches, grises ou rousses, reçoit un assez beau poli et peut être fourni par de grands blocs."@en;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_95 a skos:Concept;
-  skos:prefLabel "Marbre brèche d'Alep";
+  skos:prefLabel "Marbre brèche d'Alep"@fr;
   skos:broader vocab:concept_92;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_96 a skos:Concept;
-  skos:prefLabel "Marbre brèche grise";
+  skos:prefLabel "Marbre brèche grise"@fr;
   skos:broader vocab:concept_92;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_97 a skos:Concept;
-  skos:prefLabel "Marbre brèche violette";
+  skos:prefLabel "Marbre brèche violette"@fr;
   skos:broader vocab:concept_92;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_98 a skos:Concept;
-  skos:prefLabel "Marbre brocatelle";
+  skos:prefLabel "Marbre brocatelle"@fr;
   skos:broader vocab:concept_92;
   skos:hiddenLabel "Marbre brèche caroline";
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_99 a skos:Concept;
-  skos:prefLabel "Marbre de Rance";
+  skos:prefLabel "Marbre de Rance"@fr;
   skos:broader vocab:concept_92;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_100 a skos:Concept;
-  skos:prefLabel "Marbre Fleur de Pêcher";
+  skos:prefLabel "Marbre Fleur de Pêcher"@fr;
   skos:broader vocab:concept_92;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_101 a skos:Concept;
-  skos:prefLabel "Marbre granit";
+  skos:prefLabel "Marbre granit"@fr;
   skos:broader vocab:concept_92;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_102 a skos:Concept;
-  skos:prefLabel "Marbre griotte";
+  skos:prefLabel "Marbre griotte"@fr;
   skos:broader vocab:concept_92;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_103 a skos:Concept;
-  skos:prefLabel "Marbre gris";
+  skos:prefLabel "Marbre gris"@fr;
   skos:broader vocab:concept_92;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_104 a skos:Concept;
-  skos:prefLabel "Marbre noir";
+  skos:prefLabel "Marbre noir"@fr;
   skos:broader vocab:concept_92;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_105 a skos:Concept;
-  skos:prefLabel "Marbre Sainte-Anne";
+  skos:prefLabel "Marbre Sainte-Anne"@fr;
   skos:broader vocab:concept_92;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_106 a skos:Concept;
-  skos:prefLabel "Marbre sarrancolin";
+  skos:prefLabel "Marbre sarrancolin"@fr;
   skos:broader vocab:concept_92;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_107 a skos:Concept;
-  skos:prefLabel "Marbre turquin";
+  skos:prefLabel "Marbre turquin"@fr;
   skos:broader vocab:concept_92;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_108 a skos:Concept;
-  skos:prefLabel "Marbre vert de mer";
+  skos:prefLabel "Marbre vert de mer"@fr;
   skos:broader vocab:concept_92;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_109 a skos:Concept;
-  skos:prefLabel "Marbre vert des Alpes";
+  skos:prefLabel "Marbre vert des Alpes"@fr;
   skos:broader vocab:concept_92;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_110 a skos:Concept;
-  skos:prefLabel "Marbre violet";
+  skos:prefLabel "Marbre violet"@fr;
   skos:broader vocab:concept_92;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_111 a skos:Concept;
-  skos:prefLabel "Marbre-onyx";
+  skos:prefLabel "Marbre-onyx"@fr;
   skos:broader vocab:concept_92;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_112 a skos:Concept;
-  skos:prefLabel "Porphyre";
+  skos:prefLabel "Porphyre"@fr;
   skos:broader vocab:concept_80;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_113 a skos:Concept;
-  skos:prefLabel "Pierre précieuse et semi-précieuse";
+  skos:prefLabel "Pierre précieuse et semi-précieuse"@fr;
   skos:broader vocab:concept_56;
   dct:source "Joconde";
   skos:narrower vocab:concept_114, vocab:concept_115, vocab:concept_120, vocab:concept_121,
@@ -754,167 +755,167 @@ vocab:concept_113 a skos:Concept;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_114 a skos:Concept;
-  skos:prefLabel "Améthyste";
+  skos:prefLabel "Améthyste"@fr;
   skos:broader vocab:concept_113;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_115 a skos:Concept;
-  skos:prefLabel "Calcédoine";
+  skos:prefLabel "Calcédoine"@fr;
   skos:broader vocab:concept_113;
   dct:source "Château de Fontainebleau";
-  skos:definition "Calcédoine d'une variété vert pomme.";
+  skos:definition "Calcédoine d'une variété vert pomme."@en;
   skos:narrower vocab:concept_116, vocab:concept_118, vocab:concept_119;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_116 a skos:Concept;
-  skos:prefLabel "Agate";
+  skos:prefLabel "Agate"@fr;
   skos:broader vocab:concept_115;
   dct:source "Château de Fontainebleau";
   skos:narrower vocab:concept_117;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_117 a skos:Concept;
-  skos:prefLabel "Onyx";
+  skos:prefLabel "Onyx"@fr;
   skos:broader vocab:concept_116;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_118 a skos:Concept;
-  skos:prefLabel "Chrysoprase";
+  skos:prefLabel "Chrysoprase"@fr;
   skos:broader vocab:concept_115;
   skos:hiddenLabel "Chrysoprases";
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_119 a skos:Concept;
-  skos:prefLabel "Cornaline";
+  skos:prefLabel "Cornaline"@fr;
   skos:broader vocab:concept_115;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_120 a skos:Concept;
-  skos:prefLabel "Cristal de roche";
+  skos:prefLabel "Cristal de roche"@fr;
   skos:broader vocab:concept_113;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_121 a skos:Concept;
-  skos:prefLabel "Diamant";
+  skos:prefLabel "Diamant"@fr;
   skos:broader vocab:concept_113;
   dct:source "Château de Fontainebleau";
   skos:narrower vocab:concept_122;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_122 a skos:Concept;
-  skos:prefLabel "Brillant";
+  skos:prefLabel "Brillant"@fr;
   skos:broader vocab:concept_121;
   dct:source "Château de Fontainebleau";
-  skos:definition "Brillant: Diamant arrondi taillé en 57 ou 58 facettes pour être monté en bijou.";
+  skos:definition "Brillant: Diamant arrondi taillé en 57 ou 58 facettes pour être monté en bijou."@en;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_123 a skos:Concept;
-  skos:prefLabel "Emeraude";
+  skos:prefLabel "Emeraude"@fr;
   skos:broader vocab:concept_113;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_124 a skos:Concept;
-  skos:prefLabel "Grenat";
+  skos:prefLabel "Grenat"@fr;
   skos:broader vocab:concept_113;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_125 a skos:Concept;
-  skos:prefLabel "Jade";
+  skos:prefLabel "Jade"@fr;
   skos:broader vocab:concept_113;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_126 a skos:Concept;
-  skos:prefLabel "Jaspe";
+  skos:prefLabel "Jaspe"@fr;
   skos:broader vocab:concept_113;
   dct:source "Château de Fontainebleau";
   skos:narrower vocab:concept_127, vocab:concept_128, vocab:concept_129;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_127 a skos:Concept;
-  skos:prefLabel "Jaspe rose";
+  skos:prefLabel "Jaspe rose"@fr;
   skos:broader vocab:concept_126;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_128 a skos:Concept;
-  skos:prefLabel "Jaspe sanguin";
+  skos:prefLabel "Jaspe sanguin"@fr;
   skos:broader vocab:concept_126;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_129 a skos:Concept;
-  skos:prefLabel "Jaspe vert";
+  skos:prefLabel "Jaspe vert"@fr;
   skos:broader vocab:concept_126;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_130 a skos:Concept;
-  skos:prefLabel "Lapis-lazuli";
+  skos:prefLabel "Lapis-lazuli"@fr;
   skos:broader vocab:concept_113;
   skos:hiddenLabel "Lapis";
   dct:source "Joconde";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_131 a skos:Concept;
-  skos:prefLabel "Rubis";
+  skos:prefLabel "Rubis"@fr;
   skos:broader vocab:concept_113;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_132 a skos:Concept;
-  skos:prefLabel "Saphir";
+  skos:prefLabel "Saphir"@fr;
   skos:broader vocab:concept_113;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_133 a skos:Concept;
-  skos:prefLabel "Sardoine";
+  skos:prefLabel "Sardoine"@fr;
   skos:broader vocab:concept_113;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_134 a skos:Concept;
-  skos:prefLabel "Topaze";
+  skos:prefLabel "Topaze"@fr;
   skos:broader vocab:concept_113;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_135 a skos:Concept;
-  skos:prefLabel "Turquoise";
+  skos:prefLabel "Turquoise"@fr;
   skos:broader vocab:concept_113;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_136 a skos:Concept;
-  skos:prefLabel "Stuc";
+  skos:prefLabel "Stuc"@fr;
   skos:broader vocab:concept_56;
   skos:related vocab:concept_88;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_137 a skos:Concept;
-  skos:prefLabel "Terre";
+  skos:prefLabel "Terre"@fr;
   skos:broader vocab:concept_56;
   dct:source "Joconde";
   skos:narrower vocab:concept_138, vocab:concept_139;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_138 a skos:Concept;
-  skos:prefLabel "Terre crue";
+  skos:prefLabel "Terre crue"@fr;
   skos:broader vocab:concept_137;
   dct:source "Joconde";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_139 a skos:Concept;
-  skos:prefLabel "Terre cuite";
+  skos:prefLabel "Terre cuite"@fr;
   skos:broader vocab:concept_137;
   skos:hiddenLabel "Terre-cuite";
   dct:source "Château de Fontainebleau";
@@ -922,7 +923,7 @@ vocab:concept_139 a skos:Concept;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_140 a skos:Concept;
-  skos:prefLabel "Céramique";
+  skos:prefLabel "Céramique"@fr;
   skos:broader vocab:concept_139;
   skos:hiddenLabel "Terre vernissée";
   dct:source "Château de Fontainebleau";
@@ -930,66 +931,66 @@ vocab:concept_140 a skos:Concept;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_141 a skos:Concept;
-  skos:prefLabel "Faïence";
+  skos:prefLabel "Faïence"@fr;
   skos:broader vocab:concept_140;
   dct:source "Château de Fontainebleau";
   skos:narrower vocab:concept_142;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_142 a skos:Concept;
-  skos:prefLabel "Faïence fine";
+  skos:prefLabel "Faïence fine"@fr;
   skos:broader vocab:concept_141;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_143 a skos:Concept;
-  skos:prefLabel "Grès (céramique)";
+  skos:prefLabel "Grès (céramique)"@fr;
   skos:broader vocab:concept_140;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_144 a skos:Concept;
-  skos:prefLabel "Porcelaine";
+  skos:prefLabel "Porcelaine"@fr;
   skos:broader vocab:concept_140;
   dct:source "Château de Fontainebleau";
   skos:narrower vocab:concept_145;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_145 a skos:Concept;
-  skos:prefLabel "Biscuit de porcelaine";
+  skos:prefLabel "Biscuit de porcelaine"@fr;
   skos:broader vocab:concept_144;
   dct:source "Château de Fontainebleau";
   skos:narrower vocab:concept_146, vocab:concept_147;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_146 a skos:Concept;
-  skos:prefLabel "Biscuit de porcelaine dure";
+  skos:prefLabel "Biscuit de porcelaine dure"@fr;
   skos:broader vocab:concept_145;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_147 a skos:Concept;
-  skos:prefLabel "Biscuit de porcelaine tendre";
+  skos:prefLabel "Biscuit de porcelaine tendre"@fr;
   skos:broader vocab:concept_145;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_148 a skos:Concept;
-  skos:prefLabel "Verre";
+  skos:prefLabel "Verre"@fr;
   skos:broader vocab:concept_56;
   dct:source "Château de Fontainebleau";
   skos:narrower vocab:concept_149, vocab:concept_151;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_149 a skos:Concept;
-  skos:prefLabel "Cristal";
+  skos:prefLabel "Cristal"@fr;
   skos:broader vocab:concept_148;
   dct:source "Château de Fontainebleau";
   skos:narrower vocab:concept_150;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_150 a skos:Concept;
-  skos:prefLabel "Cristal de Montcenis";
+  skos:prefLabel "Cristal de Montcenis"@fr;
   skos:broader vocab:concept_149;
   skos:hiddenLabel "Cristal de Mont-Cenis";
   dct:source "Château de Fontainebleau";
@@ -999,13 +1000,13 @@ La manufacture des cristaux de Montcenis au Creusot a été récompensée à deu
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_151 a skos:Concept;
-  skos:prefLabel "Strass";
+  skos:prefLabel "Strass"@fr;
   skos:broader vocab:concept_148;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_152 a skos:Concept;
-  skos:prefLabel "Matériau d'origine animale";
+  skos:prefLabel "Matériau d'origine animale"@fr;
   dct:source "Château de Fontainebleau";
   skos:narrower vocab:concept_153, vocab:concept_154, vocab:concept_155, vocab:concept_157,
     vocab:concept_158, vocab:concept_160, vocab:concept_161, vocab:concept_165, vocab:concept_166,
@@ -1015,57 +1016,57 @@ vocab:concept_152 a skos:Concept;
   skos:topConceptOf <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_153 a skos:Concept;
-  skos:prefLabel "Cheveux";
+  skos:prefLabel "Cheveux"@fr;
   skos:broader vocab:concept_152;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_154 a skos:Concept;
-  skos:prefLabel "Cire";
+  skos:prefLabel "Cire"@fr;
   skos:broader vocab:concept_152;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_155 a skos:Concept;
-  skos:prefLabel "Coquillage";
+  skos:prefLabel "Coquillage"@fr;
   skos:broader vocab:concept_152;
   dct:source "Château de Fontainebleau";
   skos:narrower vocab:concept_156;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_156 a skos:Concept;
-  skos:prefLabel "Nacre";
+  skos:prefLabel "Nacre"@fr;
   skos:broader vocab:concept_155;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_157 a skos:Concept;
-  skos:prefLabel "Corail";
+  skos:prefLabel "Corail"@fr;
   skos:broader vocab:concept_152;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_158 a skos:Concept;
-  skos:prefLabel "Corne";
+  skos:prefLabel "Corne"@fr;
   skos:broader vocab:concept_152;
   dct:source "Château de Fontainebleau";
   skos:narrower vocab:concept_159;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_159 a skos:Concept;
-  skos:prefLabel "Fanon de baleine";
+  skos:prefLabel "Fanon de baleine"@fr;
   skos:broader vocab:concept_158;
   dct:source "Joconde";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_160 a skos:Concept;
-  skos:prefLabel "Crin";
+  skos:prefLabel "Crin"@fr;
   skos:broader vocab:concept_152;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_161 a skos:Concept;
-  skos:prefLabel "Cuir";
+  skos:prefLabel "Cuir"@fr;
   skos:broader vocab:concept_152;
   skos:hiddenLabel "Peau";
   dct:source "Château de Fontainebleau";
@@ -1073,96 +1074,96 @@ vocab:concept_161 a skos:Concept;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_162 a skos:Concept;
-  skos:prefLabel "Maroquin";
+  skos:prefLabel "Maroquin"@fr;
   skos:broader vocab:concept_161;
   dct:source "Château de Fontainebleau";
-  skos:definition "Cuir de chèvre épaisse et solide, utilisé en reliure et en maroquinerie.";
+  skos:definition "Cuir de chèvre épaisse et solide, utilisé en reliure et en maroquinerie."@en;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_163 a skos:Concept;
-  skos:prefLabel "Parchemin";
+  skos:prefLabel "Parchemin"@fr;
   skos:broader vocab:concept_161;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_164 a skos:Concept;
-  skos:prefLabel "Vélin";
+  skos:prefLabel "Vélin"@fr;
   skos:broader vocab:concept_161;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_165 a skos:Concept;
-  skos:prefLabel "Ecaille";
+  skos:prefLabel "Ecaille"@fr;
   skos:broader vocab:concept_152;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_166 a skos:Concept;
-  skos:prefLabel "Ivoire (dent)";
+  skos:prefLabel "Ivoire (dent)"@fr;
   skos:broader vocab:concept_152;
   dct:source "Château de Fontainebleau";
   skos:scopeNote "\"Dent\" permet de différencier de ivoire \"couleur\".";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_167 a skos:Concept;
-  skos:prefLabel "Laine";
+  skos:prefLabel "Laine"@fr;
   skos:broader vocab:concept_152;
   dct:source "Château de Fontainebleau";
   skos:narrower vocab:concept_168;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_168 a skos:Concept;
-  skos:prefLabel "Cachemire";
+  skos:prefLabel "Cachemire"@fr;
   skos:broader vocab:concept_167;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_169 a skos:Concept;
-  skos:prefLabel "Lin";
+  skos:prefLabel "Lin"@fr;
   skos:broader vocab:concept_152;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_170 a skos:Concept;
-  skos:prefLabel "Os";
+  skos:prefLabel "Os"@fr;
   skos:broader vocab:concept_152;
   dct:source "Château de Fontainebleau";
   skos:narrower vocab:concept_171;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_171 a skos:Concept;
-  skos:prefLabel "Os de baleine";
+  skos:prefLabel "Os de baleine"@fr;
   skos:broader vocab:concept_170;
   dct:source "Joconde";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_172 a skos:Concept;
-  skos:prefLabel "Plume";
+  skos:prefLabel "Plume"@fr;
   skos:broader vocab:concept_152;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_173 a skos:Concept;
-  skos:prefLabel "Sépia";
+  skos:prefLabel "Sépia"@fr;
   skos:broader vocab:concept_152;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_174 a skos:Concept;
-  skos:prefLabel "Soie";
+  skos:prefLabel "Soie"@fr;
   skos:broader vocab:concept_152;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_175 a skos:Concept;
-  skos:prefLabel "Précisions matériaux";
+  skos:prefLabel "Précisions matériaux"@fr;
   dct:source "Joconde";
   skos:narrower vocab:concept_176;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux>;
   skos:topConceptOf <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_176 a skos:Concept;
-  skos:prefLabel "Application et incrustation";
+  skos:prefLabel "Application et incrustation"@fr;
   skos:broader vocab:concept_175;
   dct:source "Joconde";
   skos:narrower vocab:concept_177, vocab:concept_178, vocab:concept_179, vocab:concept_180,
@@ -1170,50 +1171,50 @@ vocab:concept_176 a skos:Concept;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_177 a skos:Concept;
-  skos:prefLabel "Biais";
+  skos:prefLabel "Biais"@fr;
   skos:broader vocab:concept_176;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_178 a skos:Concept;
-  skos:prefLabel "Cabochon";
+  skos:prefLabel "Cabochon"@fr;
   skos:broader vocab:concept_176;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_179 a skos:Concept;
-  skos:prefLabel "Cannetille";
+  skos:prefLabel "Cannetille"@fr;
   skos:broader vocab:concept_176;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_180 a skos:Concept;
-  skos:prefLabel "Frange";
+  skos:prefLabel "Frange"@fr;
   skos:broader vocab:concept_176;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_181 a skos:Concept;
-  skos:prefLabel "Galon";
+  skos:prefLabel "Galon"@fr;
   skos:broader vocab:concept_176;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_182 a skos:Concept;
-  skos:prefLabel "Paillette";
+  skos:prefLabel "Paillette"@fr;
   skos:broader vocab:concept_176;
   dct:source "Château de Fontainebleau";
   skos:narrower vocab:concept_183;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_183 a skos:Concept;
-  skos:prefLabel "Paillon";
+  skos:prefLabel "Paillon"@fr;
   skos:broader vocab:concept_182;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_184 a skos:Concept;
-  skos:prefLabel "Ruban";
+  skos:prefLabel "Ruban"@fr;
   skos:broader vocab:concept_176;
   dct:source "Château de Fontainebleau";
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
