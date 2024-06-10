@@ -21,8 +21,8 @@
 @prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
 
 <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> a skos:ConceptScheme;
-  dct:title "Thesaurus des Matériaux";
-  dct:description "Put description here"@en;
+  dct:title "Thesaurus des Matériaux"@fr;
+  dct:description "Description"@fr;
   skos:hasTopConcept vocab:concept_1, vocab:concept_56, vocab:concept_152, vocab:concept_175 .
 
 vocab:concept_1 a skos:Concept;
@@ -37,7 +37,7 @@ vocab:concept_2 a skos:Concept;
   skos:prefLabel "Amarante"@fr;
   skos:broader vocab:concept_1;
   dct:source "Château de Fontainebleau";
-  skos:definition "Plante ornementale aux fleurs rouges groupées en longues grappes, appelée aussi queue de reb"@en;
+  skos:scopeNote "Plante ornementale aux fleurs rouges groupées en longues grappes, appelée aussi queue de reb"@fr;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_3 a skos:Concept;
@@ -325,7 +325,7 @@ vocab:concept_47 a skos:Concept;
   skos:prefLabel "Futaine"@fr;
   skos:broader vocab:concept_44;
   dct:source "Château de Fontainebleau";
-  skos:definition "Etoffe croisée et pelucheuse, de fil et de coton qui servait à faire des jupons, des doublures, des camisoles."@en;
+  skos:scopeNote "Etoffe croisée et pelucheuse, de fil et de coton qui servait à faire des jupons, des doublures, des camisoles."@fr;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_48 a skos:Concept;
@@ -557,7 +557,7 @@ vocab:concept_83 a skos:Concept;
   skos:prefLabel "Bois pétrifié"@fr;
   skos:broader vocab:concept_80;
   dct:source "Château de Fontainebleau";
-  skos:definition "Le bois pétrifié est un type de fossile. Le bois pétrifié est composé de bois fossilisé où la matière organique a plus ou moins été remplacée par des minéraux, tout en conservant plus ou moins complètement la structure anatomique originale du bois."@en;
+  skos:scopeNote "Le bois pétrifié est un type de fossile. Le bois pétrifié est composé de bois fossilisé où la matière organique a plus ou moins été remplacée par des minéraux, tout en conservant plus ou moins complètement la structure anatomique originale du bois."@fr;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_84 a skos:Concept;
@@ -633,7 +633,7 @@ vocab:concept_94 a skos:Concept;
   skos:prefLabel "Marbre Boulogne"@fr;
   skos:broader vocab:concept_92;
   dct:source "Château de Fontainebleau";
-  skos:definition "De couleur café au lait avec veines blanches, grises ou rousses, reçoit un assez beau poli et peut être fourni par de grands blocs."@en;
+  skos:scopeNote "De couleur café au lait avec veines blanches, grises ou rousses, reçoit un assez beau poli et peut être fourni par de grands blocs."@fr;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_95 a skos:Concept;
@@ -764,7 +764,7 @@ vocab:concept_115 a skos:Concept;
   skos:prefLabel "Calcédoine"@fr;
   skos:broader vocab:concept_113;
   dct:source "Château de Fontainebleau";
-  skos:definition "Calcédoine d'une variété vert pomme."@en;
+  skos:scopeNote "Calcédoine d'une variété vert pomme."@fr;
   skos:narrower vocab:concept_116, vocab:concept_118, vocab:concept_119;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
@@ -811,7 +811,7 @@ vocab:concept_122 a skos:Concept;
   skos:prefLabel "Brillant"@fr;
   skos:broader vocab:concept_121;
   dct:source "Château de Fontainebleau";
-  skos:definition "Brillant: Diamant arrondi taillé en 57 ou 58 facettes pour être monté en bijou."@en;
+  skos:scopeNote "Brillant: Diamant arrondi taillé en 57 ou 58 facettes pour être monté en bijou."@fr;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_123 a skos:Concept;
@@ -996,7 +996,7 @@ vocab:concept_150 a skos:Concept;
   dct:source "Château de Fontainebleau";
   skos:definition """Cristaux Creusot ou Montcenis.
 Il existe très peu de pièces authentifiées comme des productions de la manufacture du Creusot (qui porte jusqu'à sa fermeture le nom de cristallerie de Montcenis). Les seuls catalogues connus à ce jour ne permettent pas d'être complètement affirmatif. En 1823, est même édité, sous la forme d'une liste de produits courants, un catalogue commun à Baccarat et Montcenis. Le seul catalogue que l'on peut estimer de 1830 ne présente que des formes et des mentions de tailles. A cette date les principales cristalleries françaises ont des productions similaires correspondant au goût et aux modes du moment (Source:www.ecomusee-creusot-montceau.fr).
-La manufacture des cristaux de Montcenis au Creusot a été récompensée à deux reprises aux Expositions des produits de l’industrie française, en 1801 et 1802. A partir de 1806, son administrateur, Benjamin-François de la Douespe du Fougerais (1766-1821) devient le principal fournisseur de verrerie de l’Impératrice Il prend alors le titre d’« Entrepreneur de cristaux de S. M. l’Impératrice ». Il fournit abondamment également, tant la Maison de l ‘Empereur, que celle de la reine Hortense (Musée national des châteaux de Malmaison et Bois- Préau).""";
+La manufacture des cristaux de Montcenis au Creusot a été récompensée à deux reprises aux Expositions des produits de l’industrie française, en 1801 et 1802. A partir de 1806, son administrateur, Benjamin-François de la Douespe du Fougerais (1766-1821) devient le principal fournisseur de verrerie de l’Impératrice Il prend alors le titre d’« Entrepreneur de cristaux de S. M. l’Impératrice ». Il fournit abondamment également, tant la Maison de l ‘Empereur, que celle de la reine Hortense (Musée national des châteaux de Malmaison et Bois- Préau)."""@fr;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_151 a skos:Concept;
@@ -1077,7 +1077,7 @@ vocab:concept_162 a skos:Concept;
   skos:prefLabel "Maroquin"@fr;
   skos:broader vocab:concept_161;
   dct:source "Château de Fontainebleau";
-  skos:definition "Cuir de chèvre épaisse et solide, utilisé en reliure et en maroquinerie."@en;
+  skos:scopeNote "Cuir de chèvre épaisse et solide, utilisé en reliure et en maroquinerie."@fr;
   skos:inScheme <http://data.chateaudefontainebleau.fr/vocabulaires/materiaux> .
 
 vocab:concept_163 a skos:Concept;
