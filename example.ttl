@@ -27,53 +27,53 @@
     <http://data.sparna.fr/vocabularies/days/friday>, <http://data.sparna.fr/vocabularies/days/week-end> .
 
 <http://data.sparna.fr/vocabularies/days/monday> a skos:Concept;
-  skos:preflabel "Monday"@en;
+  skos:prefLabel "Monday"@en;
   skos:definition "The day where you get back at work"@en;
   skos:notation "MON";
   skos:inScheme <http://data.sparna.fr/vocabularies/days>;
   skos:topConceptOf <http://data.sparna.fr/vocabularies/days> .
 
 <http://data.sparna.fr/vocabularies/days/tuesday> a skos:Concept;
-  skos:preflabel "Tuesday"@en;
+  skos:prefLabel "Tuesday"@en;
   skos:definition "The most productive day of the week."@en;
   skos:notation "TUE";
   skos:inScheme <http://data.sparna.fr/vocabularies/days>;
   skos:topConceptOf <http://data.sparna.fr/vocabularies/days> .
 
 <http://data.sparna.fr/vocabularies/days/wednesday> a skos:Concept;
-  skos:preflabel "Wednesday"@en;
+  skos:prefLabel "Wednesday"@en;
   skos:notation "WED";
   skos:inScheme <http://data.sparna.fr/vocabularies/days>;
   skos:topConceptOf <http://data.sparna.fr/vocabularies/days> .
 
 <http://data.sparna.fr/vocabularies/days/thursday> a skos:Concept;
-  skos:preflabel "Thursday"@en;
+  skos:prefLabel "Thursday"@en;
   skos:notation "THU";
   skos:inScheme <http://data.sparna.fr/vocabularies/days>;
   skos:topConceptOf <http://data.sparna.fr/vocabularies/days> .
 
 <http://data.sparna.fr/vocabularies/days/friday> a skos:Concept;
-  skos:preflabel "Friday"@en;
+  skos:prefLabel "Friday"@en;
   skos:definition "Week-end soon !"@en;
   skos:notation "FRI";
   skos:inScheme <http://data.sparna.fr/vocabularies/days>;
   skos:topConceptOf <http://data.sparna.fr/vocabularies/days> .
 
 <http://data.sparna.fr/vocabularies/days/saturday> a skos:Concept;
-  skos:preflabel "Saturday"@en;
+  skos:prefLabel "Saturday"@en;
   skos:notation "SAT";
   skos:broader <http://data.sparna.fr/vocabularies/days/week-end>;
   skos:inScheme <http://data.sparna.fr/vocabularies/days> .
 
 <http://data.sparna.fr/vocabularies/days/sunday> a skos:Concept;
-  skos:preflabel "Sunday"@en;
+  skos:prefLabel "Sunday"@en;
   skos:definition "The day you sleep."@en;
   skos:notation "SUN";
   skos:broader <http://data.sparna.fr/vocabularies/days/week-end>;
   skos:inScheme <http://data.sparna.fr/vocabularies/days> .
 
 <http://data.sparna.fr/vocabularies/days/week-end> a skos:Concept;
-  skos:preflabel "Week-end"@en;
+  skos:prefLabel "Week-end"@en;
   skos:definition "Any day of the week-end"@en;
   skos:narrower <http://data.sparna.fr/vocabularies/days/saturday>, <http://data.sparna.fr/vocabularies/days/sunday>;
   skos:notation "WKND";
