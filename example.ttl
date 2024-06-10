@@ -21,7 +21,7 @@
 
 <http://data.sparna.fr/vocabularies/days> a skos:ConceptScheme;
   dct:title "Weekdays"@en;
-  dct:description "The days of the week";
+  dct:description "The days of the week"@en;
   skos:hasTopConcept <http://data.sparna.fr/vocabularies/days/monday>, <http://data.sparna.fr/vocabularies/days/tuesday>,
     <http://data.sparna.fr/vocabularies/days/wednesday>, <http://data.sparna.fr/vocabularies/days/thursday>,
     <http://data.sparna.fr/vocabularies/days/friday>, <http://data.sparna.fr/vocabularies/days/week-end> .
