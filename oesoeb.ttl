@@ -8,7 +8,7 @@
     dct:creator "Hans Dampf"@de ;
     dct:created "2021-11-02"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept :a  , :b .
+    skos:hasTopConcept :a  , :b , :c
 
 :a a skos:Concept ;
     skos:prefLabel "Allgemeines"@de, "General"@en ;
@@ -23,3 +23,7 @@
 :bb a skos:Concept ;
     skos:prefLabel "Letters & diaries"@en, "Briefe und Tagebücher"@de ;
     skos:inScheme : .
+
+<https://example.org/oesoeb/a> <http://www.w3.org/2004/02/skos/core#prefLabel> "Allgemeines"@de .
+
+
