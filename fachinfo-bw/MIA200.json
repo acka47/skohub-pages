@@ -104,7 +104,7 @@
   ],
   "inScheme": [
     {
-      "id": "https://acka47.github.io/skohub-pages/fachinfo-bw/",
+      "id": "https://acka47.github.io/skohub-pages/fachinfo-bw/scheme",
       "title": {
         "de": "Klassifikation FachInfoUstgBw, 3. Auflage 2020",
         "en": "Classification FachInfoUstgBw, 3rd Edition 2020"
@@ -114,14 +114,11 @@
   "inSchemeAll": [
     {
       "id": "https://acka47.github.io/skohub-pages/fachinfo-bw/scheme"
-    },
-    {
-      "id": "https://acka47.github.io/skohub-pages/fachinfo-bw/"
     }
   ],
   "topConceptOf": [
     {
-      "id": "https://acka47.github.io/skohub-pages/fachinfo-bw/",
+      "id": "https://acka47.github.io/skohub-pages/fachinfo-bw/scheme",
       "title": {
         "de": "Klassifikation FachInfoUstgBw, 3. Auflage 2020",
         "en": "Classification FachInfoUstgBw, 3rd Edition 2020"
