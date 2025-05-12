@@ -1,0 +1,28 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix ex: <https://w3id.org/exampleGardenTools/>.
+
+ex:
+    a skos:ConceptScheme;
+    dct:description "My wonderful vocabulary of garden tools"@en;
+    dct:title "Garde tools"@en;
+    skos:hasTopConcept ex:3b7a8, ex:69b32, ex:c88ac.
+ex:1b549
+    a skos:Concept;
+    skos:broader ex:69b32;
+    skos:inScheme ex:;
+    skos:prefLabel "Beetgabel"@de, "Border Fork"@en.
+ex:3b7a8
+a skos:Concept; skos:prefLabel "Spade"@en, "Spaten"@de; skos:topConceptOf ex: .
+ex:69b32
+    a skos:Concept;
+    skos:narrower ex:1b549, ex:ff94c;
+    skos:prefLabel "Fork"@en, "Gabel"@de;
+    skos:topConceptOf ex: .
+ex:c88ac
+a skos:Concept; skos:prefLabel "Schere"@de, "Shears"@en; skos:topConceptOf ex: .
+ex:ff94c
+    a skos:Concept;
+    skos:broader ex:69b32;
+    skos:inScheme ex:;
+    skos:prefLabel "Mulch Fork"@en, "Mulchgabel"@de.
