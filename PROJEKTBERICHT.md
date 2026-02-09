@@ -2,8 +2,8 @@
 # MALIS: Kleines IT2-Praxisprojekt in einer Dreiergruppe (V.P., J.S., K.Z.)
 
 # Ergebnisse: 
-[git-Repositorium] (https://github.com/JudiSchumi/skohub-pages)  
-[Mit SkoHub Pages publiziertes SKOS-Vokabular] (https://judischumi.github.io/skohub-pages/w3id.org/dsh/schulfaecher/index.html) 
+[git-Repositorium](https://github.com/JudiSchumi/skohub-pages)
+[Mit SkoHub Pages publiziertes SKOS-Vokabular](https://judischumi.github.io/skohub-pages/w3id.org/dsh/schulfaecher/index.html)
 
 # Projektbericht:
 
