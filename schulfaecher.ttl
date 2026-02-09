@@ -1,4 +1,4 @@
-@prefix schulf: <https://w3id.org/dsh/schulfaecher/> .
+@prefix schulf: <https://acka47.github.io/skohub-pages/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -244,11 +244,3 @@ schulf:hauswirtschaft a skos:Concept ;
     skos:inScheme schulf: ;
     dct:publisher "Deutsche Schule Helsinki" ;
     dct:modified "2018-06-20"^^xsd:date .
-
-
-
-
-
-
-
-
